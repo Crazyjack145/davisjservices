@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Davis J Services</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-truck,.fa- {font-size:200px}
+@media only screen and (max-width: 600px) {}}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-blue"><i class="fa fa-home w3-jumbo"></i><br>Home</a>
+  <a href="UnitPages/MoveClean.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class=""></i>Move In, Move Out Cleaning</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-blue"><i class="fa fa-envelope w3-jumbo"></i><br>Contact</a>
+</nav>
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+
+  </div>
+</div>
+
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:128px 16px" id="#">
+  <h1 class="w3-margin w3-jumbo">Davis J Services</h1>
+  <p class="w3-xlarge">Providing Quality Cleaning and Home Care</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Contribute to the welfare of others</h1>
+      <h5 class="w3-padding-32">Davis J Services will provide you a quality consistent detailed cleaning experience.</h5>
+
+      <p class="w3-text-grey w3-hover-text-blue"><a href="UnitPages/MoveClean.html">More Details Here!</a></p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-truck w3-padding-64 w3-text-blue w3-hide-small"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container w3-text " id="contact">
+  <div class="w3-content">
+  <!-- Footer -->
+  <footer class="w3-small w3-center" id="footer">
+    <div class="w3-row-padding w3-large">
+      <div class="w3-half">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+      <div class="w3-half w3-justify">
+        <h4>Contact</h4>
+        <p><i class="fa fa-fw fa-phone"></i> 843-941-1085</p>
+        <p><i class="fa fa-fw fa-envelope"></i> davisjservices@gmail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Paypal</p>
+		<p><i class="fa fa-fw fa-money"></i> Cash</p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+	  
+      </div>
+    </div>
+  </footer>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge"><a href="#"></a></h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
